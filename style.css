@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: solid 1px black;
+}
+
+.navbar {
+    position: fixed;
+    width: 1533px;
+    height: 65px;
+}
+
+#logo {
+    position: relative;
+    width: 155px;
+    top: 17px;
+    left: 15px;
+}
+
+#search {
+    position: relative;
+    width: 179px;
+    height: 30px;
+    top: -17px;
+    left: 182px;
+    background-color: aliceblue;
+    color: purple;
+    border-radius: 10px;
+}
+
+.addpic {
+    position: relative;
+    display: inline;
+    width: 179px;
+    top: -17px;
+    left: 1074px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: large;
+    background-image: linear-gradient(to right, #ff4516, rgb(193, 193, 0));
+    color: white;
+    border-radius: 10px;
+}
+
+.leftbar {
+    position: relative;
+    width: 305px;
+    height: 700px;
+}
+
+.profile {
+    position: relative;
+
+}
