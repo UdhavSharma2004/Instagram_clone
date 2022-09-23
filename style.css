@@ -3,13 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    outline: solid 1px black;
+    /* outline: solid 1px black; */
     font-family: 'Poppins', sans-serif;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
 }
 
 .navbar {
@@ -59,9 +59,10 @@ body {
 }
 
 .leftbar {
+    position: sticky;
     width: 305px;
     height: 650px;
-    background-color: #fcfcfc;
+    background-color: #f7f7f7;
 }
 
 .profile {
@@ -147,4 +148,59 @@ body {
     border-radius: 50%;
     padding: 2px;
     border: solid 2px #c12261;
+    background-size: cover;
+}
+
+.feedhead {
+    margin-top: 20px;
+}
+
+#feed {
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#latest {
+    margin-left: 990px;
+    font-weight: bold;
+}
+
+#popular {
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.feed {
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.storymanpic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    border: solid 2px #c12261;
+    background-size: cover;
+}
+
+
+.storyman span {
+    position: relative;
+    top: -10px;
+}
+
+.feedpic {
+    border-radius: 5px;
+}
+
+.feedcard {
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+    border-radius: 5px;
+    background-color: #f7f7f7;
 }
