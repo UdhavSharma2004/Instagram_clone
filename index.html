@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css">
     <title>Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   </head>
   <body>
     <div class="navbar"><!-- insta logo + search + add photos-->
-      <img id="logo" src="./images/logo.png">
+      <span id="searchlogo"><i class="ri-search-line"></i></span><img id="logo" src="./images/logo.png">
       <input type="search" id="search" placeholder="Search">
-      <div class="addpic">Add Photos</div>
+      <span class="notif"><i class="ri-notification-4-line"></i></span>
+      <span class="unread"><i class="ri-mail-unread-fill"></i></span>
+      <div class="addpic"><i class="ri-add-circle-line"></i>Add Photos</div>
     </div>
     <!-- **************************** -->
     <div class="container">
@@ -32,14 +35,14 @@
       </div>
       <!-- **************************** -->
       <div class="functions"><!-- 8 functions-->
-        <p>Feed</p>
-        <p>Notification</p>
-        <p>Explore</p>
-        <p>Message</p>
-        <p>Direct</p>
-        <p>Stats</p>
-        <p>Settings</p>
-        <p>Logout</p>
+        <p class="lefticons"><span class="icon"><i class="ri-function-line"></i></span>Feed<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-notification-4-line"></i></span>Notification<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-search-line"></i>Explore<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-mail-unread-fill"></i>Message<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-send-plane-fill"></i>Direct<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-bar-chart-2-fill"></i>Stats<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-settings-5-line"></i>Settings<i class="ri-more-2-line"></i></p>
+        <p class="lefticons"><span class="icon"><i class="ri-logout-box-r-line"></i>Logout<i class="ri-more-2-line"></i></p>
       </div>
     </div>
     <!-- **************************** -->
