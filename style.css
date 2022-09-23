@@ -34,6 +34,8 @@ body {
     background-color: #fcfcfc;
     color: rgb(112, 50, 143);
     border-radius: 10px;
+    border: none;
+    outline: none;
 }
 
 .addpic {
@@ -45,7 +47,7 @@ body {
     padding: 10px;
     font-weight: bolder;
     font-size: large;
-    background-image: linear-gradient(to right, #ff4516, rgb(255, 255, 28));
+    background-image: linear-gradient(to right, #e2336b, #fcab46);
     color: white;
     border-radius: 10px;
 }
@@ -76,7 +78,8 @@ body {
     margin-left: 20px;
     margin-bottom: 10px;
     padding: 2px;
-    border: solid 2px #c12261;
+    border: solid 2px #e2336b;
+    object-fit: cover;
 }
 
 #name {
@@ -147,7 +150,8 @@ body {
     height: 60px;
     border-radius: 50%;
     padding: 2px;
-    border: solid 2px #c12261;
+    object-fit: cover;
+    border: solid 2px #e2336b;
     background-size: cover;
 }
 
@@ -182,8 +186,8 @@ body {
     height: 30px;
     border-radius: 50%;
     padding: 2px;
-    border: solid 2px #c12261;
-    background-size: cover;
+    border: solid 2px #e2336b;
+    object-fit: cover;
 }
 
 
@@ -194,6 +198,7 @@ body {
 
 .feedpic {
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .feedcard {
@@ -203,4 +208,43 @@ body {
     display: inline;
     border-radius: 5px;
     background-color: #f7f7f7;
+}
+
+/* .icon {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2px;
+} */
+
+.ri-more-2-line {
+    position: absolute;
+    left: 270px;
+}
+
+.lefticons:hover {
+    color: #e2336b;
+}
+
+#searchlogo {
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+
+.notif {
+    position: absolute;
+    top: 30px;
+    left: 1340px;
+}
+
+.unread {
+    position: absolute;
+    top: 30px;
+    left: 1370px;
+}
+.notif:hover{
+    color:#e2336b;
+}
+.unread:hover{
+    color:#e2336b;
 }
