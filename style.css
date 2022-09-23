@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    outline: solid 1px black;
+    /* outline: solid 1px black; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
 }
 
 .navbar {
@@ -23,8 +31,8 @@
     height: 30px;
     top: -17px;
     left: 182px;
-    background-color: aliceblue;
-    color: purple;
+    background-color: #fcfcfc;
+    color: rgb(112, 50, 143);
     border-radius: 10px;
 }
 
@@ -33,22 +41,166 @@
     display: inline;
     width: 179px;
     top: -17px;
-    left: 1074px;
+    left: 1054px;
     padding: 10px;
     font-weight: bolder;
     font-size: large;
-    background-image: linear-gradient(to right, #ff4516, rgb(193, 193, 0));
+    background-image: linear-gradient(to right, #ff4516, rgb(255, 255, 28));
     color: white;
     border-radius: 10px;
 }
 
-.leftbar {
+.container {
     position: relative;
+    /* background-color: aqua; */
+    top: 75px;
+    height: 650px;
+    display: flex;
+}
+
+.leftbar {
+    position: sticky;
     width: 305px;
-    height: 700px;
+    height: 650px;
+    background-color: #f7f7f7;
 }
 
 .profile {
     position: relative;
+    margin-top: 60px;
+    margin-left: 65px;
+}
 
+#mypic {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: solid 2px #c12261;
+}
+
+#name {
+    margin: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#iid {
+    margin: 1%;
+    font-style: italic;
+    color: rgb(104, 104, 104);
+}
+
+.followers {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    grid-template-rows: 20px 40px;
+    grid-template-columns: 90px 100px 100px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+
+}
+
+.functions {
+    color: rgb(104, 104, 104);
+    display: grid;
+    margin-top: 10px;
+    margin-left: 20px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    font-weight: bold;
+}
+
+.rightbar {
+    width: 1200px;
+    background-color: #ffffff;
+}
+
+.storieshead {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#storiesp {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#watchall {
+    position: relative;
+    left: 1000px;
+    font-size: 15px;
+
+}
+
+.stories {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 115px 115px 115px 115px 115px 115px 115px 115px 115px 115px;
+    grid-template-rows: auto;
+}
+
+.story {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 2px;
+    border: solid 2px #c12261;
+    background-size: cover;
+}
+
+.feedhead {
+    margin-top: 20px;
+}
+
+#feed {
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#latest {
+    margin-left: 990px;
+    font-weight: bold;
+}
+
+#popular {
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.feed {
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.storymanpic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    border: solid 2px #c12261;
+    background-size: cover;
+}
+
+
+.storyman span {
+    position: relative;
+    top: -10px;
+}
+
+.feedpic {
+    border-radius: 5px;
+}
+
+.feedcard {
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+    border-radius: 5px;
+    background-color: #f7f7f7;
 }
