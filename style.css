@@ -242,3 +242,9 @@ body {
     top: 30px;
     left: 1370px;
 }
+.notif:hover{
+    color:#e2336b;
+}
+.unread:hover{
+    color:#e2336b;
+}
