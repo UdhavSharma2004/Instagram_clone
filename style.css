@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     outline: solid 1px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
 }
 
 .navbar {
@@ -23,8 +31,8 @@
     height: 30px;
     top: -17px;
     left: 182px;
-    background-color: aliceblue;
-    color: purple;
+    background-color: #fcfcfc;
+    color: rgb(112, 50, 143);
     border-radius: 10px;
 }
 
@@ -42,13 +50,68 @@
     border-radius: 10px;
 }
 
-.leftbar {
+.container {
     position: relative;
+    /* background-color: aqua; */
+    top: 75px;
+    height: 650px;
+    display: flex;
+}
+
+.leftbar {
     width: 305px;
-    height: 700px;
+    height: 650px;
+    background-color: #fcfcfc;
 }
 
 .profile {
     position: relative;
+    margin-top: 70px;
+    margin-left: 65px;
+}
 
+#mypic {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: solid 2px #c12261;
+}
+
+#name {
+    margin: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#iid {
+    margin: 1%;
+    font-style: italic;
+    color: rgb(104, 104, 104);
+}
+
+.followers {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    grid-template-rows: 20px 40px;
+    grid-template-columns: 90px 100px 100px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+
+}
+
+.functions {
+    color: rgb(104, 104, 104);
+    display: grid;
+    margin-top: 10px;
+    margin-left: 20px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    font-weight: bold;
+}
+
+.rightbar {
+    width: 1200px;
+    background-color: #ffffff;
 }
